@@ -1,0 +1,87 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+main {
+    padding: 20px;
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.task-input {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.task-input input,
+.task-input select,
+.task-input button {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.task-input button {
+    background-color: #28a745;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+}
+
+.task-list h2 {
+    margin-bottom: 10px;
+}
+
+.task-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.task-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 5px;
+    background-color: #eee;
+    border-radius: 5px;
+}
+
+.task-list .task-completed {
+    text-decoration: line-through;
+    color: #999;
+}
+
+.task-list .priority-low {
+    border-left: 5px solid #28a745;
+}
+
+.task-list .priority-medium {
+    border-left: 5px solid #ffc107;
+}
+
+.task-list .priority-high {
+    border-left: 5px solid #dc3545;
+}
+
+.task-list button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #333;
+}
